@@ -6,7 +6,7 @@
                 <img src="images/divider.png" alt="" width="80%" >
             </div>
             <div class="text-center">
-                <span class="ruban text-h4 text-weight-thin text-primary">Dorcas & Musa</span> <br>
+                <span class="monsieur text-h3 text-weight-thin text-primary">Dorcas & Musa</span> <br>
                 <span class="ruban text-h6 text-weight-light text-primary">#MusDee2020</span> <br>
                 <span class="text-grey-7">We're getting married.</span>
             </div>
@@ -45,7 +45,7 @@
       </div> 
 
       <q-card class="q-px-xl q-pt-xl text-white bg-grey-10 text-center" style="max-width: 350px">
-        <span class="text-h4 text-weight-light text-primary align-center">Save The Date <br> </span>        
+        <span class="italiano text-h3 text-weight-light text-primary align-center">Save The Date <br> </span>        
         <span class="text-h7 text-weight-light">TRADITIONALS <br> </span>
         <span class="text-h7 text-weight-thin">5th September, 2020 <br> <br> </span>        
         <span class="text-h7 text-weight-light">WEDDING CEREMONY <br> </span>
@@ -62,7 +62,7 @@
         <img src="images/divider.png" alt="" width="70%" >
     </div>  
 
-    <div class="text-h5 text-weight-light text-primary text-center">Wedding Colors <br> </div>        
+    <div class="monsieur text-h4 text-weight-light text-primary text-center">Wedding Colors <br> </div>        
     <div class="text-center">
       <q-chip clickable color="primary" text-color="white">
         Onion Purple
@@ -115,7 +115,7 @@
         <div class="text-center">
           <img src="images/divider.png" alt="" width="80%" >
         </div>          
-        <div class="text-weight-light text-h4 text-white text-center">
+        <div class="monsieur text-weight-light text-h3 text-white text-center">
           Our Love Story
         </div>
         <div class="text-center">
@@ -164,7 +164,7 @@
         <div class="text-center">
           <img src="images/divider.png" alt="" width="80%" >
         </div>          
-        <div class="text-weight-light text-h4 text-white text-center">
+        <div class="monsieur text-weight-light text-h3 text-white text-center">
           Pre-wedding Photos
         </div>
         <div class="text-center q-mb-none q-pb-none">
@@ -182,11 +182,15 @@
             </div>
 
             <div class="q-pb-md">
+                <q-img class="radius"  src="images/musdee3.jpg" :ratio="4/3" />
+            </div>
+
+            <div class="q-pb-md">
                 <q-img class="radius"  src="images/pic8.jpg" :ratio="4/3" />
             </div>
 
             <div class="q-pb-md">
-                <q-img class="radius"  src="images/pic9.jpg" :ratio="4/3" />
+                <q-img class="radius"  src="images/musdee5.jpg" :ratio="4/3" />
             </div>
 
             <div class="q-pb-md">
@@ -196,6 +200,10 @@
             <div class="q-pb-md">
                 <q-img class="radius"  src="images/pic5.jpg" :ratio="4/3" />
             </div>    
+
+            <div class="q-pb-md">
+                <q-img class="radius"  src="images/musdee8.jpg" :ratio="4/3" />
+            </div>
 
             <div class="q-pb-md">
                 <q-img class="radius"  src="images/pic2.jpg" :ratio="4/3" />
@@ -214,7 +222,7 @@
         <div class="text-center">
           <img src="images/divider.png" alt="" width="80%" >
         </div>          
-        <div class="text-weight-light text-h4 text-grey-8 text-center">
+        <div class="monsieur text-weight-light text-h3 text-grey-8 text-center">
           Gift Registry
         </div>
         <div class="text-center">
@@ -340,23 +348,29 @@ export default {
         {
           id: '1',
           name: 'moonlove',
-          imageUrl: '/images/pic6.jpg',
+          imageUrl: '/images/musdee1.jpg',
           title: '05th December, 2020',
         },
         {
           id: '2',
           name: 'lovecircle',
-          imageUrl: '/images/pic7.jpg',
+          imageUrl: '/images/musdee4.jpg',
           title: '#MusDee2020',
         },
         {
           id: '3',
           name: 'lovelove',
-          imageUrl: '/images/pic8.jpg',
+          imageUrl: '/images/musdee2.jpg',
           title: '#Soulmates',
         },
         {
           id: '4',
+          name: 'loveon',
+          imageUrl: '/images/musdee7.jpg',
+          title: '#Bliss',
+        },        
+        {
+          id: '5',
           name: 'loveRing',
           imageUrl: '/images/pic9.jpg',
           title: '#Forever',
@@ -383,7 +397,10 @@ export default {
 }
 
 
-/* .ruban{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-} */
+.monsieur{
+  font-family: 'Monsieur La Doulaise', 'Roboto', 'Arial';
+}
+.italiano{
+  font-family: 'Italianno', 'Roboto', 'Arial';
+}
 </style>
